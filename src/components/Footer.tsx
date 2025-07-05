@@ -69,7 +69,7 @@ export default function Footer() {
           <div className="border-t border-[#2c2c2c] mt-8 pt-8 text-center">
             <p className="text-sm text-[#D1D5DB]">
               2025 © All Rights Reserved | School Master Store | Designed &
-              Developed by EVER EFFICIENT Business Management (Pvt) Ltd.
+              Developed by <a href="https://everefficient.lk/" className=" hover:underline">EVER EFFICIENT Business Management (Pvt) Ltd.</a>
             </p>
           </div>
         </div>
