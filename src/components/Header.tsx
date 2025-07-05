@@ -1,6 +1,7 @@
 import  { useState } from "react";
 import { Search, ShoppingCart, User, Menu, X } from "lucide-react";
 import mainlogo from "../assets/mainlogo.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,32 +12,32 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
-            <a href="/">
+            <Link to="/">
             <img
               src={mainlogo}
               alt="Logo"
               className="h-8 w-auto object-cover"
-            /> </a>
-            <a href="/" className="font-semibold text-[#0a090a] text-sm sm:text-base">
+            /> </Link>
+            <Link to="/" className="font-semibold text-[#0a090a] text-sm sm:text-base">
               School Master Store
-            </a>
+            </Link>
            
           </div>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-[#0a090a] hover:text-[#d4af37]">
+            <Link to="#" className="text-[#0a090a] hover:text-[#d4af37]">
               Home
-            </a>
-            <a href="#" className="text-[#64748b] hover:text-[#d4af37]">
+            </Link>
+            <Link to="#" className="text-[#64748b] hover:text-[#d4af37]">
               Uniforms
-            </a>
-            <a href="#" className="text-[#64748b] hover:text-[#d4af37]">
+            </Link>
+            <Link to="#" className="text-[#64748b] hover:text-[#d4af37]">
               Accessories
-            </a>
-            <a href="#" className="text-[#64748b] hover:text-[#d4af37]">
+            </Link>
+            <Link to="#" className="text-[#64748b] hover:text-[#d4af37]">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Icons + Hamburger */}
@@ -62,18 +63,18 @@ export default function Header() {
         {/* Mobile Nav Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-3 space-y-2 px-4">
-            <a href="#" className="block text-[#0a090a] hover:text-[#d4af37]">
+            <Link to="/" className="block text-[#0a090a] hover:text-[#d4af37]">
               Home
-            </a>
-            <a href="#" className="block text-[#64748b] hover:text-[#d4af37]">
+            </Link>
+            <Link to="/" className="block text-[#64748b] hover:text-[#d4af37]">
               Uniforms
-            </a>
-            <a href="#" className="block text-[#64748b] hover:text-[#d4af37]">
+            </Link>
+            <Link to="/" className="block text-[#64748b] hover:text-[#d4af37]">
               Accessories
-            </a>
-            <a href="#" className="block text-[#64748b] hover:text-[#d4af37]">
+            </Link>
+            <Link to="/" className="block text-[#64748b] hover:text-[#d4af37]">
               Contact
-            </a>
+            </Link>
           </div>
         )}
       </header>
