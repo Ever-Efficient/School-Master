@@ -2,7 +2,7 @@ import { Facebook, Instagram, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0a090a] text-white py-8 px-4">
+    <footer className="bg-[#0a090a] text-white py-8 px-4 px">
       <div className="max-w-7xl mx-auto px-4 md:px-12">
         {/* Responsive Columns */}
         <div className=" flex justify-center ">
@@ -74,6 +74,7 @@ export default function Footer() {
         {/* Full Width Border Line & Bottom Text */}
         <div className="w-full border-t border-[#2c2c2c] mt-8">
           <div className="max-w-7xl mx-auto pt-8 text-center px-4">
+            
             <p className="text-sm text-[#D1D5DB]">
               2025 © All Rights Reserved | School Master Store | Designed & Developed by{" "}
               <a
