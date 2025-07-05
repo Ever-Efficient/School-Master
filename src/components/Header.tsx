@@ -11,14 +11,16 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
+            <a href="/">
             <img
               src={mainlogo}
               alt="Logo"
               className="h-8 w-auto object-cover"
-            />
-            <span className="font-semibold text-[#0a090a] text-sm sm:text-base">
+            /> </a>
+            <a href="/" className="font-semibold text-[#0a090a] text-sm sm:text-base">
               School Master Store
-            </span>
+            </a>
+           
           </div>
 
           {/* Desktop Nav */}
