@@ -1,13 +1,9 @@
-import React from "react";
+
 
 import {
   Search,
   ShoppingCart,
-  User,
-  Star,
-  Facebook,
-  Instagram,
-  MessageCircle,
+  User
 } from "lucide-react";
 
 export default function Header() {

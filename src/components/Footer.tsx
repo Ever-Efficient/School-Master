@@ -1,5 +1,5 @@
 import { Facebook, Instagram, MessageCircle } from "lucide-react";
-import React from "react";
+
 
 export default function Footer() {
   return (
