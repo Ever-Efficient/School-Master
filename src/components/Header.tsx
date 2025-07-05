@@ -18,7 +18,7 @@ export default function Header() {
               alt="Logo"
               className="h-8 w-auto object-cover"
             /> </Link>
-            <Link to="/" className="font-semibold text-[#0a090a] text-sm sm:text-base">
+            <Link to="/admin" className="font-semibold text-[#0a090a] text-sm sm:text-base">
               School Master Store
             </Link>
            
