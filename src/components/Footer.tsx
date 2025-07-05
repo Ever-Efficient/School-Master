@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="bg-[#0a090a] text-white py-8 px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto px-12">
           <div className="flex justify-between ">
             <div>
               <h3 className="font-bold mb-4">School Master Store</h3>
