@@ -35,7 +35,7 @@ export default function Header() {
             <Link to="#" className="text-[#64748b] hover:text-[#d4af37]">
               Accessories
             </Link>
-            <Link to="#" className="text-[#64748b] hover:text-[#d4af37]">
+            <Link to="/admin" className="text-[#64748b] hover:text-[#d4af37]">
               Contact
             </Link>
           </nav>
