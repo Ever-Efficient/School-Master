@@ -1,4 +1,4 @@
-import { ArrowLeft, BarChart3, LogOut, Package, Plus, Settings, ShoppingCart, Star, Tag, Upload, Users } from "lucide-react"
+import { ArrowLeft, Upload} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
