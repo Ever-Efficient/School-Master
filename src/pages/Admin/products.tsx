@@ -81,7 +81,7 @@ export default function ProductsPage() {
               <h2 className="text-2xl font-bold text-[#111827] mb-2">Products</h2>
               <p className="text-[#6b7280]">Manage your school uniform inventory</p>
             </div>
-            <Link to="/admin/add-product">
+            <Link to="/admin/add">
               <Button className="bg-[#2563eb] text-white hover:bg-[#1e40af]">
                 <Plus className="w-4 h-4 mr-2" />
                 Add New Product
@@ -94,25 +94,25 @@ export default function ProductsPage() {
             <Card className="border-[#e5e7eb]">
               <CardContent className="p-4">
                 <div className="text-2xl font-bold text-[#111827]">89</div>
-                <div className="text-sm text-[#6b7280]">Total Products</div>
+                <div className="text-sm font-semibold text-[#6b7280]">Total Products</div>
               </CardContent>
             </Card>
             <Card className="border-[#e5e7eb]">
               <CardContent className="p-4">
                 <div className="text-2xl font-bold text-[#16a34a]">76</div>
-                <div className="text-sm text-[#6b7280]">Active Products</div>
+                <div className="text-sm font-semibold text-[#6b7280]">Active Products</div>
               </CardContent>
             </Card>
             <Card className="border-[#e5e7eb]">
               <CardContent className="p-4">
                 <div className="text-2xl font-bold text-[#ea580c]">7</div>
-                <div className="text-sm text-[#6b7280]">Low Stock</div>
+                <div className="text-sm text-[#6b7280] font-semibold">Low Stock</div>
               </CardContent>
             </Card>
             <Card className="border-[#e5e7eb]">
               <CardContent className="p-4">
                 <div className="text-2xl font-bold text-[#dc2626]">6</div>
-                <div className="text-sm text-[#6b7280]">Out of Stock</div>
+                <div className="text-sm text-[#6b7280] font-semibold">Out of Stock</div>
               </CardContent>
             </Card>
           </div>

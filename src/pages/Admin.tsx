@@ -20,6 +20,7 @@ import {
 
 import { Header } from "@/components/admin-layout/header";
 import Sidebar from "@/components/admin-layout/sidebar";
+import { Link } from "react-router-dom";
 
 export default function Component() {
   return (
@@ -49,7 +50,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm text-[#6b7280] mb-1">Total Orders</p>
+                    <p className="text-sm font-semibold text-[#6b7280] mb-1">Total Orders</p>
                     <p className="text-2xl font-bold text-[#111827]">1,247</p>
                     <p className="text-sm text-[#16a34a]">
                       +12% from last month
@@ -66,7 +67,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm text-[#6b7280] mb-1">
+                    <p className="text-sm font-semibold text-[#6b7280] mb-1">
                       Active Products
                     </p>
                     <p className="text-2xl font-bold text-[#111827]">89</p>
@@ -83,7 +84,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm text-[#6b7280] mb-1">Revenue</p>
+                    <p className="text-sm text-[#6b7280] font-semibold mb-1">Revenue</p>
                     <p className="text-2xl font-bold text-[#111827]">
                       Rs 2,45,890
                     </p>
@@ -92,7 +93,7 @@ export default function Component() {
                     </p>
                   </div>
                   <div className="w-12 h-12 bg-[#fef9c3] rounded-lg flex items-center justify-center">
-                    <span className="text-[#ca8a04] font-bold text-lg">₹</span>
+                    <span className="text-[#ca8a04] font-bold text-lg">LKR</span>
                   </div>
                 </div>
               </CardContent>
@@ -100,7 +101,7 @@ export default function Component() {
 
             <Card className="border-[#e5e7eb]">
               <CardContent className="p-6">
-                <div className="flex items-center justify-between">
+                <div className="flex items-center font-semibold justify-between">
                   <div>
                     <p className="text-sm text-[#6b7280] mb-1">
                       Low Stock Items
@@ -177,7 +178,7 @@ export default function Component() {
                   <Badge className="bg-[#ea580c] hover:bg-[#ea580c]">Low</Badge>
                 </div>
 
-                <Button className="w-full bg-[#2563eb] hover:bg-[#1e40af]">
+                <Button className="w-full bg-[#2563eb] text-white hover:bg-[#1e40af]">
                   View All Alerts
                 </Button>
               </CardContent>
@@ -190,10 +191,12 @@ export default function Component() {
               <CardTitle className="text-lg font-semibold text-[#111827]">
                 Recent Orders
               </CardTitle>
-              <Button className="bg-[#2563eb] hover:bg-[#1e40af]">
+              <Link to="/admin/add">
+              <Button className="bg-[#2563eb] text-white hover:bg-[#1e40af]">
                 <Plus className="w-4 h-4 mr-2" />
                 Add New Product
               </Button>
+              </Link>
             </CardHeader>
             <CardContent>
               <Table>
@@ -274,7 +277,7 @@ export default function Component() {
               <div className="mt-4">
                 <Button
                   variant="ghost"
-                  className="text-[#2563eb] hover:text-[#1e40af]"
+                  className="text-[#2563eb] text-white hover:text-[#1e40af]"
                 >
                   View All Orders
                 </Button>

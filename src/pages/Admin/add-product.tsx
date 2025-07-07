@@ -304,8 +304,8 @@ export default function AddProductPage() {
               </Card>
 
               <div className="space-y-3">
-                <Button className="w-full bg-[#2563eb] hover:bg-[#1e40af]">Save Product</Button>
-                <Button variant="outline" className="w-full border-[#d1d5db] bg-transparent">
+                <Button className="w-full bg-[#2563eb] hover:bg-[#1e40af] text-white">Save Product</Button>
+                <Button variant="outline" className="w-full  border-[#d1d5db] bg-transparent">
                   Save as Draft
                 </Button>
               </div>

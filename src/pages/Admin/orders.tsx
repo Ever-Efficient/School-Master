@@ -89,28 +89,28 @@ export default function OrdersPage() {
           {/* Stats Cards */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
             <Card className="border-[#e5e7eb]">
-              <CardContent className="p-4">
+              <CardContent className="p-4 font-semibold">
                 <div className="text-2xl font-bold text-[#111827]">1,247</div>
                 <div className="text-sm text-[#6b7280]">Total Orders</div>
                 <div className="text-xs text-[#16a34a]">+12% from last month</div>
               </CardContent>
             </Card>
             <Card className="border-[#e5e7eb]">
-              <CardContent className="p-4">
+              <CardContent className="p-4 font-semibold" >
                 <div className="text-2xl font-bold text-[#16a34a]">892</div>
                 <div className="text-sm text-[#6b7280]">Completed</div>
                 <div className="text-xs text-[#16a34a]">+8% from last month</div>
               </CardContent>
             </Card>
             <Card className="border-[#e5e7eb]">
-              <CardContent className="p-4">
+              <CardContent className="p-4 font-semibold">
                 <div className="text-2xl font-bold text-[#ea580c]">156</div>
                 <div className="text-sm text-[#6b7280]">Processing</div>
                 <div className="text-xs text-[#ea580c]">+3% from last month</div>
               </CardContent>
             </Card>
             <Card className="border-[#e5e7eb]">
-              <CardContent className="p-4">
+              <CardContent className="p-4 font-semibold">
                 <div className="text-2xl font-bold text-[#dc2626]">23</div>
                 <div className="text-sm text-[#6b7280]">Cancelled</div>
                 <div className="text-xs text-[#dc2626]">-2% from last month</div>
