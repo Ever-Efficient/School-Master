@@ -212,7 +212,9 @@ export default function ProductsPage() {
                         </TableCell>
                         <TableCell>
                           <div className="flex items-center gap-2">
-                            
+                            <Button variant="ghost" size="sm">
+                              <Eye className="w-4 h-4" />
+                            </Button>
                             <Button
                               variant="ghost"
                               size="sm"
